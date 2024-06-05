@@ -1,0 +1,320 @@
+/* .Table {
+  width:50%;
+  border-spacing: 2px;    
+} */
+
+/* table, th, td {
+  border: 1px solid;
+  text-align:center;
+  font-size: smaller;
+} */
+/* table, td {  
+  border: 1px solid;
+  text-align:center;
+  color: #7cfa06;
+  font-size:medium; 
+}  */
+.inline-block-child {
+  display: inline-block;
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px rgb(255, 152, 26);
+  background: white;
+}
+.inline-block-child-Reletive {
+  position: relative;
+  display: inline-block;
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px rgb(255, 152, 26);
+  background: white;
+}
+.Title { width:98%; margin-right: 5px;} 
+/*table.fixed {table-layout:fixed; width:90px;}/*Setting the table width is important!*/
+/*table.fixed td {overflow:hidden;}/*Hide text outside the cell.*/
+table th td:nth-of-type(1) {width:10px;}/*Setting the width of column 1.*/
+table th td:nth-of-type(2) {width:300px;}/*Setting the width of column 2.*/
+table th td:nth-of-type(3) {width:50px;}/*Setting the width of column 3.*/
+table th td:nth-of-type(4) {width:50px;}/*Setting the width of column 1.*/
+table th td:nth-of-type(5) {width:300px;}/*Setting the width of column 2.*/
+table th td:nth-of-type(6) {width:50px;}/*Setting the width of column 3.*/
+table, td {  
+  border: 1px solid;
+  text-align:center;
+  color: #7cfa06;
+  font-size:medium; 
+  height: 28px;
+  cursor: default;
+} 
+th {
+  background-color: #aa6204;
+  color: white;
+  text-align:center;
+  font-weight:bold;
+  font-size:medium;  
+  height: 8px;
+} 
+ 
+
+td.selected {
+   background-color: rgb(15, 112, 231); 
+  /* background: blue; */
+  color: white;
+  cursor:pointer;
+}
+tr.selected {
+  background-color: rgb(15, 112, 231);  
+ /* background: blue; */
+ color: white;
+ cursor:pointer;
+}
+
+.Highlight2 {
+background-color: gold;
+font-weight: bold;
+cursor: pointer;
+}
+.Highlight {   
+  cursor: pointer;
+  }
+.container
+{
+  display: flex;
+}
+.wrapper2233 {  
+  width: 99%;  
+  border: 2px solid black;
+  min-height: calc(25vh - 12rem);
+   
+  background-color: #282c34;
+  position:relative; 
+} 
+.wrapper223 {  
+  width: 99%; 
+  border: 1px solid black;
+  min-height: calc(25vh - 4rem);
+  overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+  background-color: #282c34;
+  /* display: flex; */
+  position:relative;
+ 
+} 
+.wrapper2255 {
+  display: inline-block;
+  width: 50%; 
+  border: 1px solid black;
+  min-height: calc(25vh - 4rem);
+  overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+  background-color: #282c34;
+  /* display: flex; */
+  /* position:relative; */
+  
+} 
+.wrapper225 {
+  width: 99%; 
+  border: 1px solid black; 
+  overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+  background-color: #282c34;
+  /* display: flex; */
+  position:relative;
+ 
+} 
+
+.wrapper223_backup {
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+  border: 1px solid black;
+  overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+  background-color: #282c34;
+  /* display: flex; */
+  position:relative;
+ 
+} 
+.wrapper223_negative {
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+  border: 1px solid black;
+  overflow: auto; /* so the size of the wrapper is alway the size of the longest content */
+  color: #e1e5ee;
+  position:relative;
+ 
+} 
+.first22 {
+  position: relative;    
+  top: 30px;
+  left: 10px; 
+ 
+}
+/* .first100 {
+  display:inline-table;
+  position: sticky;  
+  top: 135px;
+  left: 10px; 
+ 
+}
+.first101 {
+  display:inline-block;
+  position: sticky;
+  top: 220px;
+  left: 10px; 
+  width:130px;
+  height: 570px;
+}
+.first102 {
+  display:inline-block;
+  position:sticky;
+  top:220px;
+  left: 150px; 
+  width: auto; 
+  height: 570px;
+}
+.first103 {
+  display:inline-block;
+  position:sticky;
+  top:220px;
+  left: 55%; 
+  width: auto;
+  height: 570px;
+} */
+.first100 {
+  display:inline-table;
+  top: 3px;
+  width:auto;
+  height: auto;
+}
+
+.first101 {  
+  position: relative;
+  top: 1px;
+  left: 1px; 
+  width:auto;
+  height: auto;
+}
+.first102 {
+  display:inline-table; 
+  
+}
+.first103 {
+  display:inline-table;
+  
+ 
+}
+.first104step {  
+  position: relative;
+  top: 1px;
+  left: 1px; 
+  width:auto;
+  height: auto;
+}
+.first105Para {
+  display:inline-table; 
+  
+}
+.first23 {
+  position: relative;
+  top: 10px;
+  left: 10px; 
+ 
+}
+.second22 {  
+  position: relative;
+  top: 10px;
+  left: 10px;    
+  /* margin: 0 0 0 302px; /* considering the border you need to use a margin so the content does not float under the first div*/
+}
+
+  
+tr:hover {background-color: rgb(135, 158, 73);
+  color: #f1eaea;    
+}
+
+#people { width:100%; border-collapse:collapse; margin-right: 1px;margin-top: 3px;} 
+#people th { border: silver 1px solid; text-align:center;  height: 8px;}
+#people td { border: silver 1px solid; text-align:center;  height: 15px;}
+#people tr {pointer-events: none;}
+
+#peopleno { width:99%; border-collapse:collapse;display: none ; margin-right: 21px;} 
+#peopleno th, #peopleno td{ border: silver 1px solid; text-align:center; display: none;}
+#peopleno tr {pointer-events: none;}
+
+/* .row {
+display: sticky;
+top: 85px;
+left: 10px; 
+  width: 100px;
+  height: 900px;
+}
+
+.column {
+flex: 50%;
+padding: 5px;
+} */
+/* #peopleWafer { width:98%; border-collapse:collapse; } 
+#peopleWafer th, #peopleWafer td{ border: silver 1px solid; text-align:center; }
+#peopleWaferno { width:98%; border-collapse:collapse; display: none;} 
+#peopleWaferno th, #peopleWaferno td{ border: silver 1px solid; text-align:center; display: none;} */
+/* #peopleWafer { width:98%; border-collapse:collapse; }  flex: 50% */
+#peopleWafer { margin-right: 1px;} 
+#peopleWafer th, #peopleWafer td{ width:10px;border: silver 1px solid; text-align:center;  font-size:small; } 
+
+/* #peopleWafer tr:nth-child(even) { background-color: #f2f2f2; pointer-events: none;} */
+
+#peopleWaferno {   display: none;} 
+#peopleWaferno th, #peopleWaferno td{ width:10px;border: silver 1px solid; text-align:center; display: none;font-size:small;}
+/* #peopleWaferno tr { display: none;}  */
+/* #peopleWaferno tr:nth-child(even) { background-color: #f2f2f2; pointer-events: none;} */
+
+
+
+#peopleWaferMovement {  margin-right: 5px;} 
+#peopleWaferMovement th, #peopleWaferMovement td{ border: silver 1px solid; text-align:center; }
+#peopleWaferMovement tr {pointer-events: none;}
+/* #peopleWaferMovement tr:nth-child(even) { background-color: #f2f2f2; pointer-events: none;} */
+
+#peopleWaferMovementno { display: none;padding: 3px; } 
+#peopleWaferMovementno th, #peopleWaferMovementno td{ border: silver 1px solid; text-align:center;display: none; }
+#peopleWaferMovementno tr {pointer-events: none; display: none;}
+/* #peopleWaferMovementno tr:nth-child(even) { background-color: #f2f2f2; pointer-events: none;} */
+
+#peopleRecipe { border-collapse:collapse; margin-bottom: 8px;} 
+#peopleRecipe th, #peopleRecipe td{ border: silver 1px solid; text-align:center; } 
+#peopleRecipe tr {pointer-events: none;}
+#peopleRecipeno { border-collapse:collapse; display: none;} 
+#peopleRecipeno th, #peopleRecipeno td{ border: silver 1px solid; text-align:center;display: none; } 
+#peopleRecipeno tr {pointer-events: none;display: none;}
+
+#peopleStep { width:98%; border-collapse:collapse; margin-bottom: 8px;} 
+#peopleStep th, #peopleStep td{ border: silver 1px solid; text-align:center; }
+#peopleStepno { width:98%; border-collapse:collapse; display: none;} 
+#peopleStepno th, #peopleStepno td{ border: silver 1px solid; text-align:center; display: none;}
+
+#peoplePara { width:98%; border-collapse:collapse; } 
+#peoplePara th, #peoplePara td{ border: silver 1px solid; text-align:center; }
+#peopleParano { width:98%; border-collapse:collapse; display: none;} 
+#peopleParano th, #peopleParano td{ border: silver 1px solid; text-align:center; display: none;}
+
+
+
+
+#peopleUpdate { width:98%; border-collapse:collapse; } 
+#peopleUpdate th, #peopleUpdate td{ border: silver 1px solid; text-align:center; }
+
+
+
+
+
+
+
+
+
+
+
+/* .people { width:98%; border-collapse:collapse; } 
+.people th, .people td { border: silver 1px solid; text-align:center; }
+
+.odd{background-color:#CCCCFF;}
+.even{background-color:#BFFFFF;}
+.enter{background-color:#FFCCFF;} */
+

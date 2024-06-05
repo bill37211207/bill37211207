@@ -1,0 +1,42 @@
+{
+    "year":"2023",
+    "financialreport":  [
+    {   
+    "company:":"ChartJS",
+    "companyStock":"CHRT",
+    "financials":
+    [
+        {
+            "date":"Jan","revenue": 110,
+            "expense":30,
+            "profit":60            
+        },
+        {
+            "date":"Feb","revenue": 290,
+            "expense":30,
+            "profit":60            
+        },
+        {
+            "date":"Mar","revenue": 90,
+            "expense":30,
+            "profit":60            
+        },
+        {
+            "date":"Apr","revenue": 390,
+            "expense":30,
+            "profit":60            
+        },
+        {
+            "date":"May","revenue": 30,
+            "expense":30,
+            "profit":60            
+        },
+        {
+            "date":"Jun","revenue": 190,
+            "expense":30,
+            "profit":60            
+        }
+    ]
+    }
+  ]
+}
